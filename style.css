@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(162, 211, 240);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.box {
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.number {
+    color: rgba(240, 82, 82, 0.952);
+    font-size: 40px;
+}
